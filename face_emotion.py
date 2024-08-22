@@ -4,7 +4,7 @@ import numpy as np
 from keras.models import load_model
 
 # Load the pre-trained emotion detection model
-loaded_model = load_model('emotiondetectionmodel.h5')
+loaded_model = load_model('emotion_detection_model.h5')
 
 # Define the emotions
 emotions = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
